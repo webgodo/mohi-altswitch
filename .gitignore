@@ -1,0 +1,35 @@
+# Build output
+bin/
+obj/
+publish/
+dist/
+out/
+
+# Packages and signing material (never commit these)
+*.msix
+*.msixbundle
+*.msixupload
+*.appx
+*.appxbundle
+*.appxupload
+*.appxsym
+*.pfx
+*.p12
+*.pvk
+*.snk
+*.cer
+
+# IDE / OS
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+
+# Test output
+TestResults/
+
+# Local secrets
+.env
+.env.*
